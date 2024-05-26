@@ -18,7 +18,8 @@ The constraint about this project:
 The result visualization result is [here](https://lookerstudio.google.com/reporting/cafa51c6-4cfb-4cc3-959b-5135f98169d6/page/HIA1D).
 
 Documentation about data [here] (https://support.google.com/analytics/answer/3437719?hl=en)
-NOTE: Some data intentionally omitted
+
+NOTE: Some data intentionally omitted.
 
 ### How to Export Data from Google Analytics to BigQuery
 Please see this tutorial from Google, how to export the data from Google Analytics to BigQuery by click this [link](https://www.youtube.com/watch?v=u4QlVsNh2Q4)
