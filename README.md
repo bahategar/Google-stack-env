@@ -1,7 +1,12 @@
 # Google-stack-env
+![Alt text](project-workflow.png)
 
-![Alt text](environment-google.png)
-
+### Workflow
+The explanation:
+1. Export data from various source (e.g: Google Analytics, Google Sheet, or imported from local computer) into BigQuery
+2. Exported data then will be prepared for modeling
+3. Import the modeling result and addition data into BigQuery
+4. Import data from BigQuery into Looker Studio and visualize the result
 
 ## INTRODUCTION
 This is project to build simple Data Science Environment with google stack. It suitable for small business and only have small data to analyze. Due to data privacy, In this sample project we use data [The Look eCommerce](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce?project=molten-avenue-321912) provided by Google. The main goals of this project are below:
@@ -62,13 +67,3 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "SERVICE_ACCOUNT PATH"
 
 3. **Use the package to notebook**
 - You can see the documentation in [here](https://cloud.google.com/bigquery/docs/python-libraries)
-
-### Workflow
-
-![Alt text](project-workflow.png)
-
-The explanation:
-1. Export data from Google Analytics into BigQuery
-2. Exported data then will be prepared for modeling
-3. Import the modeling result and addition data into BigQuery
-4. Import data from BigQuery into Looker Studio and visualize the result
