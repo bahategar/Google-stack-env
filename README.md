@@ -4,26 +4,21 @@
 
 
 ## INTRODUCTION
-This is project to build simple Data Science Environment with google stack. It suitable for small business and only have small data to analyze. Due to data privacy, In this sample project we use data Google Analytics Sample provided by Google. The main goals of this project are below:
+This is project to build simple Data Science Environment with google stack. It suitable for small business and only have small data to analyze. Due to data privacy, In this sample project we use data [The Look eCommerce](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce?project=molten-avenue-321912) provided by Google. The main goals of this project are below:
 - Develop data science environment using Google Platform.
-- Generate advance machine learning model to predict demand of category products.
-- Visualize the result into dashboard. This dashboard must give insights about product demand.
+- Generate advance machine learning model to predict customer lifetime value.
+- Generate machine learning model for customer segmentation.
+- Visualize the result into dashboard. This dashboard must give insights about customers.
 
-The constraint about this project:
-- We focus on customers in United States.
-- We choose the top 5 category products.
-- the data displayed is the last 3 months data.
-- The data for modeling is transaction data from 2016-08-01 - 2017-08-01.
+The boundary about this project:
+- The data for modeling is transaction data from 2023-01-01 - 2024-05-31.
+- We filter the customers who active last 90 days.
+- The model predict the value for next 90 days.
 
-The result visualization result is [here](https://lookerstudio.google.com/reporting/cafa51c6-4cfb-4cc3-959b-5135f98169d6/page/HIA1D).
+The result visualization result is [here](https://lookerstudio.google.com/reporting/0c4e6f61-be78-49a8-bbc1-5e41868b7f37).
 
-Documentation about data [here] (https://support.google.com/analytics/answer/3437719?hl=en)
-
-NOTE: Some data intentionally omitted.
-
-### How to Export Data from Google Analytics to BigQuery
-Please see this tutorial from Google, how to export the data from Google Analytics to BigQuery by click this [link](https://www.youtube.com/watch?v=u4QlVsNh2Q4)
-
+### About BigQuery
+Please see this tutorial from Google by click this [link](https://www.youtube.com/playlist?list=PLIivdWyY5sqLAbIdmcMwsxWg-w8Px34MS)
 
 ### How to Connect BigQuery to Notebook
 
