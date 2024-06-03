@@ -22,6 +22,9 @@ The boundary about this project:
 
 The result visualization result is [here](https://lookerstudio.google.com/reporting/0c4e6f61-be78-49a8-bbc1-5e41868b7f37).
 
+### Data Model
+![Alt text](data-modeling.png)
+
 ### About BigQuery
 Please see this tutorial from Google by click this [link](https://www.youtube.com/playlist?list=PLIivdWyY5sqLAbIdmcMwsxWg-w8Px34MS)
 
