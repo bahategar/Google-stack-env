@@ -1,0 +1,13 @@
+Feature,Mean Absolute SHAP Value
+delay_day_sum,0.42958139503917864
+frequency,0.3518252611931935
+monetary,0.34957938240817726
+traffic_session_Facebook,0.3368580588702123
+total_session,0.33563064275759547
+traffic_session_YouTube,0.3197112542344409
+num_of_item,0.31227624805020965
+recency,0.30236613721204997
+age_account,0.27841930149244093
+traffic_session_Adwords,0.23565549492521504
+traffic_session_Organic,0.20660813290447225
+traffic_session_Email,0.16433401309513812
