@@ -70,3 +70,13 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "SERVICE_ACCOUNT PATH"
 
 3. **Use the package to notebook**
 - You can see the documentation in [here](https://cloud.google.com/bigquery/docs/python-libraries)
+
+## RESULT
+The result of dasahboard can be accessed by click this [link](https://lookerstudio.google.com/reporting/0c4e6f61-be78-49a8-bbc1-5e41868b7f37).
+
+The Executive Summary of 2024 sales:
+![Alt text](executive-summary-1.png)
+
+![Alt text](executive-summary-2.png)
+
+![Alt text](executive-summary-3.png)
